@@ -84,7 +84,7 @@ menu () {
 				            if [ $opc = '1' ]
                             then
                                 echo ""
-				                echo -e "${VERDE}Instalando SSH...${SEM_COR}"
+				                echo -e "${VERDE}Instalando FTP...${SEM_COR}"
                                 echo ""
 				                    apt-get install proftpd
                                 echo ""
@@ -92,7 +92,7 @@ menu () {
                             elif [ $opc = '2' ]
                             then
                                 echo ""
-                                echo -e "${VERDE}Desinstalando SSH...${SEM_COR}"
+                                echo -e "${VERDE}Desinstalando FTP...${SEM_COR}"
                                 echo ""
 				                    apt-get purge proftpd
                                 echo ""
@@ -108,7 +108,7 @@ menu () {
 				            if [ $opc = '1' ]
                             then
                                 echo ""
-				                echo -e "${VERDE}Instalando SSH...${SEM_COR}"
+				                echo -e "${VERDE}Instalando DHCP...${SEM_COR}"
                                 echo ""
 				                    apt-get install isc-dhcp-server
                                 echo ""
@@ -116,7 +116,7 @@ menu () {
                             elif [ $opc = '2' ]
                             then
                                 echo ""
-                                echo -e "${VERDE}Desinstalando SSH...${SEM_COR}"
+                                echo -e "${VERDE}Desinstalando DHCP...${SEM_COR}"
                                 echo ""
 				                    apt-get purge isc-dhcp-server
                                 echo ""
@@ -132,7 +132,7 @@ menu () {
 				            if [ $opc = '1' ]
                             then
                                 echo ""
-				                echo -e "${VERDE}Instalando SSH...${SEM_COR}"
+				                echo -e "${VERDE}Instalando DNS...${SEM_COR}"
                                 echo ""
 				                    apt-get install bind9 bind9-utils
                                 echo ""
@@ -140,7 +140,7 @@ menu () {
                             elif [ $opc = '2' ]
                             then
                                 echo ""
-                                echo -e "${VERDE}Desinstalando SSH...${SEM_COR}"
+                                echo -e "${VERDE}Desinstalando DNS...${SEM_COR}"
                                 echo ""
 				                    apt-get purge bind9 bind9-utils
                                 echo ""
@@ -156,7 +156,7 @@ menu () {
 				            if [ $opc = '1' ]
                             then
                                 echo ""
-				                echo -e "${VERDE}Instalando SSH...${SEM_COR}"
+				                echo -e "${VERDE}Instalando PROXY...${SEM_COR}"
                                 echo ""
 				                    apt-get install squid
                                 echo ""
@@ -164,7 +164,7 @@ menu () {
                             elif [ $opc = '2' ]
                             then
                                 echo ""
-                                echo -e "${VERDE}Desinstalando SSH...${SEM_COR}"
+                                echo -e "${VERDE}Desinstalando PROXY...${SEM_COR}"
                                 echo ""
 				                    apt-get purge squid
                                 echo ""
@@ -180,7 +180,7 @@ menu () {
 				            if [ $opc = '1' ]
                             then
                                 echo ""
-				                echo -e "${VERDE}Instalando SSH...${SEM_COR}"
+				                echo -e "${VERDE}Instalando SAMBA...${SEM_COR}"
                                 echo ""
 				                    apt-get install samba
                                 echo ""
@@ -188,7 +188,7 @@ menu () {
                             elif [ $opc = '2' ]
                             then
                                 echo ""
-                                echo -e "${VERDE}Desinstalando SSH...${SEM_COR}"
+                                echo -e "${VERDE}Desinstalando SAMBA...${SEM_COR}"
                                 echo ""
 				                    apt-get purge samba
                                 echo ""
@@ -204,7 +204,7 @@ menu () {
 				            if [ $opc = '1' ]
                             then
                                 echo ""
-				                echo -e "${VERDE}Instalando SSH...${SEM_COR}"
+				                echo -e "${VERDE}Instalando TOMCAT...${SEM_COR}"
                                 echo ""
 				                    apt-get install default-jdk curl
                                 echo ""
@@ -212,7 +212,7 @@ menu () {
                             elif [ $opc = '2' ]
                             then
                                 echo ""
-                                echo -e "${VERDE}Desinstalando SSH...${SEM_COR}"
+                                echo -e "${VERDE}Desinstalando TOMCAT...${SEM_COR}"
                                 echo ""
 				                    apt-get purge default-jdk curl
                                 echo ""
@@ -228,7 +228,7 @@ menu () {
 				            if [ $opc = '1' ]
                             then
                                 echo ""
-				                echo -e "${VERDE}Instalando SSH...${SEM_COR}"
+				                echo -e "${VERDE}Instalando APACHE...${SEM_COR}"
                                 echo ""
 				                    apt-get install apache2
                                 echo ""
@@ -236,7 +236,7 @@ menu () {
                             elif [ $opc = '2' ]
                             then
                                 echo ""
-                                echo -e "${VERDE}Desinstalando SSH...${SEM_COR}"
+                                echo -e "${VERDE}Desinstalando APACHE...${SEM_COR}"
                                 echo ""
 				                    apt-get purge apache2
                                 echo ""
@@ -252,7 +252,7 @@ menu () {
 				            if [ $opc = '1' ]
                             then
                                 echo ""
-				                echo -e "${VERDE}Instalando SSH...${SEM_COR}"
+				                echo -e "${VERDE}Instalando SARG...${SEM_COR}"
                                 echo ""
 				                    apt-get install sarg
                                 echo ""
@@ -260,7 +260,7 @@ menu () {
                             elif [ $opc = '2' ]
                             then
                                 echo ""
-                                echo -e "${VERDE}Desinstalando SSH...${SEM_COR}"
+                                echo -e "${VERDE}Desinstalando SARG...${SEM_COR}"
                                 echo ""
 				                    apt-get purge sarg
                                 echo ""
